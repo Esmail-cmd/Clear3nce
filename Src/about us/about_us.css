@@ -1,0 +1,58 @@
+.about_container{
+
+    background-color: #498cd0;
+    width: 100%;
+    height: 100px;
+    display:inline-flex;
+}
+
+.test{
+    background-color: gold;
+}
+
+
+.about_heading{
+
+    text-align: center;
+    font-family: fantasy;
+    color: gold;
+}
+
+.about_section{
+    width: 80%;
+    height: fit-content; 
+    background-color:#1200fc;
+    position: absolute;
+    left: 121px;
+}
+
+.about_para{
+    width: 50%; 
+    height: fit-content;  
+    background-color:#498cd0;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: 2px;
+    border: solid 4px whitesmoke;
+}
+.about_slider{
+    background-color:#1200fc; 
+    width: 50%; 
+    height: 390px;
+}
+
+.about_para>p{
+    color:black;
+    font-size:medium;
+    font-family: cursive;
+}
+
+.about_slider>img{
+    position: relative;
+    left: 6rem;
+}
+
+.about_slider>img :hover{
+    img
+}

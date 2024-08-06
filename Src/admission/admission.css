@@ -1,0 +1,234 @@
+.download_form{
+    margin-top: 1.25rem;
+    box-sizing: content-box;
+    justify-items: center;
+    width:300px;
+    height: 650px;
+    background-color:hsl(244.29deg 100% 49.41%);
+    position: absolute;
+    top:20%;
+    right: 20px;
+    padding-top: 5%;
+    border-bottom-style: solid;
+    border-bottom-color:#478ccf;
+}
+
+.download_form>button{
+    background-color: hsl(244.29deg 100% 49.41%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    padding-right:  auto;
+    padding-left:auto;
+    color:black;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.limited_space{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(18, 0, 252);
+    text-align: center;
+}
+
+.black_logo{
+    background-color: hsla(210, 59%, 55%, 0.4);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 4.125rem;
+    top: 2.8125rem;
+    /*position: absolute;
+    top:20%;
+    left: 33%;
+    right: right: 21%;
+    */
+}
+
+.black_logo img{
+    width: 150px; ;
+    height: 150px;
+}
+.limited{
+    border-right: solid 5px #34a852;
+    border-left: solid 5px red;
+    background-color: gold;
+}
+
+.available{
+    background-color: gold;
+    border-left: solid 5px #34a852;
+    border-right: solid 5px red;
+}
+.space{
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+
+}
+.when_applying_heading{
+    text-align: left;
+    font-family: cursive;
+    background-color:whitesmoke;
+    border-left: solid 4px #498cd0;
+    border-right: solid 4px #498cd0;
+}
+.requirements_box{
+    width: 100%;
+    height: fit-content;
+    background-color:gold;
+    position: relative;
+    top: 50px;
+    text-align: left;
+    
+    
+}
+
+.requirements{
+    margin-top: 10px;
+    background-color:hsl(51, 100%, 50%);
+    box-sizing: border-box;
+    list-style:none;
+    list-style-type: lower-alpha;
+    padding-left: 11px;
+}
+
+/* Use the color gray to position */
+.requirement{
+    list-style: none;
+    background-color: whitesmoke;    
+    font-weight:bolder;
+    margin-top: 5px;
+    border: solid black;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family:cursive;
+}
+
+/*.admission_section{
+    width: 50%;
+    height: 250px;
+    background-color: #34a852;
+}*/
+  
+.admission_section{
+     background-color: hsla(210, 59%, 55%,0.4); 
+    margin-left: 30px;
+    width:50%;
+    height: fit-content;  
+    position: absolute;
+    left:100px
+}
+.admission_heading{ 
+    text-align: center;
+    background-color: #498cd0;
+}
+
+.admission_container{
+    height: 80%;
+    display: inline-flex;
+}
+
+.admission_requirements{
+    width: 50%;
+    height: 579px;
+    background-color: #498cd0
+}
+
+.admission_pics_slider{
+    width: 50%; 
+    height: 80%;
+    ;
+
+} 
+
+.admission_p{
+    background-color: rgb(255, 215, 0);
+    font-size: larger;
+    font-family:cursive;
+}
+
+
+.Welcome_text{
+
+    font-family:cursive;
+    font-weight: bolder;
+}
+
+.slider1{
+
+    width: 100%;
+    height: 100%;
+}       
+
+
+
+
+.enquire_forum{    
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(18, 0, 252);
+    position: absolute; 
+    top: 61rem;
+    
+}
+/* ---------container to apply flex on the forum---------- */
+.forum_container{
+    height: 100%; 
+    width: 50%;
+    right: 382px; 
+    background-color: #478ccf;
+
+    
+}
+/* ---------the time slot to consult-------- */
+.time_slots{
+    display: grid;
+    position: relative;
+    left:30%;
+}
+
+.text{
+    color:gold;
+    font-family: cursive;
+    font-weight: bolder;
+
+}
+
+
+
+.enquire_container{
+    display: inline-flex;
+}
+
+
+.enquire_here{
+    font-family: cursive;
+    font-weight: bolder;
+    color: gold;
+    text-align: center;
+
+}
+
+
+.forum{
+    position: absolute;
+    right: 30%;
+}
+
+input{
+    width:16rems;
+}
+
+label{
+    color:gold;
+    font-family: cursive;
+}
+
+.end_footer{
+    top: 1.5rem;
+    
+}

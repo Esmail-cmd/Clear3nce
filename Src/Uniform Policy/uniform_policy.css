@@ -1,0 +1,35 @@
+    .new_section{
+    background-color: aqua;
+    width: 96%;
+    height: fit-content;
+    position: absolute;
+    left: 2rem;
+    text-align: center; 
+}
+
+.new_section>h1{
+    background-color: blue;
+    font-family:fantasy;
+    font-size:xx-large;
+    color: gold;
+}
+
+.new_section>ul{
+    list-style:none ;
+    line-height: 50px;
+    background-color: gold;
+    list-style-position: inside;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}   
+.new_section>li{
+    list-style: circle;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.table{
+    spacece
+}
