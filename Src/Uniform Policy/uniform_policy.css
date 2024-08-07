@@ -1,20 +1,21 @@
-    .new_section{
-    background-color: aqua;
-    width: 96%;
+    .uniform_sec{
+    background-color: #478ccf;
+    width: 90%;
     height: fit-content;
     position: absolute;
-    left: 2rem;
+    left: 4rem;
+    top: 21rem;
     text-align: center; 
 }
 
-.new_section>h1{
+.uniform_sec>h1{
     background-color: blue;
     font-family:fantasy;
     font-size:xx-large;
     color: gold;
 }
 
-.new_section>ul{
+.uniform_sec>ul{
     list-style:none ;
     line-height: 50px;
     background-color: gold;
@@ -23,13 +24,56 @@
     font-size: larger;
     font-weight: bolder;
 }   
-.new_section>li{
+.uniform_sec>li{
     list-style: circle;
     color: blue;
     font-size: larger;
     font-weight: bolder;
 }
 
-.table{
-    spacece
+h2{
+        background: blue;
+    font-family: fantasy;
+    color: gold;
+    text-shadow: 4px -5px black;
+    letter-spacing: 1px;
+    word-spacing: 21px;
+    line-height: 2rem;
+    border-top: solid 6px white;    
+}
+
+h3{
+    color: black;
+    border-bottom: solid 6px black;
+    font-family: monospace;
+    background-color: gold;
+    line-height: 34px;
+    font-family: fantasy;
+    color: blue;
+    text-shadow: 2px -4px white;
+    font-size: 1.4rem;
+}
+
+th{
+    background-color: blue;
+    font-size: large;
+    font-family: cursive;
+    color: gold;
+    text-shadow: -1px -4px black;
+    font-weight: bolder;
+}
+
+td{
+    background-color: gold;
+    border-bottom: solid 3px #1200fc;
+    font-family: cursive;
+    color: black;
+    font-size: 19px;
+    text-align: left;
+}
+
+
+.end_footer{
+    top: 89rem;
+    position: absolute;
 }
